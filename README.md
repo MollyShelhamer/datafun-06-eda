@@ -2,13 +2,46 @@
 
 ## Project Overview
 
-This project is part of the **CC6.1: Start a Python EDA Project** module. The goal is to set up a Python project that follows best practices for:
+The goal is to set up a Python project that follows best practices for:
 
 - Managing virtual environments  
 - Using GitHub for version control  
-- Preparing for exploratory data analysis (EDA) using essential data science tools  
+- Preparing for exploratory data analysis (EDA)
 
-📄 **Project Specification**: [datafun-06-spec](https://github.com/denisecase/datafun-06-spec)
+## 🐧 Penguins Dataset
+
+This project uses the **Penguins** dataset from the [Seaborn data repository](https://github.com/mwaskom/seaborn-data/blob/master/penguins.csv), a modern alternative to the classic Iris dataset for classification tasks. It contains measurements of penguins from three different species collected from the Palmer Archipelago in Antarctica.
+
+The dataset includes **344** observations with both numerical and categorical variables that are useful for data visualization, statistical modeling, and machine learning.
+
+### 🔍 Dataset Summary
+
+| Column           | Type      | Description                                                  |
+|------------------|-----------|--------------------------------------------------------------|
+| `species`        | category  | Penguin species (`Adelie`, `Chinstrap`, `Gentoo`)           |
+| `island`         | category  | Island where the penguin was observed (`Biscoe`, `Dream`, `Torgersen`) |
+| `bill_length_mm` | float     | Length of the penguin's bill (in millimeters)               |
+| `bill_depth_mm`  | float     | Depth of the penguin's bill (in millimeters)                |
+| `flipper_length_mm` | float  | Length of the penguin's flipper (in millimeters)            |
+| `body_mass_g`    | float     | Body mass (in grams)                                        |
+| `sex`            | category  | Sex of the penguin (`Male`, `Female`)                       |
+| `year`           | integer   | Year the observation was made                               |
+
+> 🛠️ **Note:** Some rows contain missing values (e.g., in `sex` and body measurements), which may require handling during preprocessing.
+
+### 💡 Use Cases
+
+This dataset is ideal for:
+
+- Classification (e.g., predicting species based on physical characteristics)
+- Data cleaning and preprocessing demonstrations
+- Exploratory data analysis and plotting practice
+- Examples of handling missing data and categorical variables
+
+### 📄 License
+
+The dataset is made available under the [BSD license](https://github.com/mwaskom/seaborn-data/blob/master/LICENSE) and is free to use for educational and research purposes.
+
 
 ---
 
